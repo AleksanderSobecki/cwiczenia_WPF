@@ -1,0 +1,21 @@
+﻿<Window x:Class="cwiczenia_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cwiczenia_WPF"
+        mc:Ignorable="d"
+        Title="Moje pierwsze okno" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="10">
+        <Label FontSize="24" FontWeight="Bold" HorizontalAlignment="Center">Panel logowania</Label>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+            <Label>Login</Label>
+            <TextBox Width="200" Height="30"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label>Hasło</Label>
+            <PasswordBox Width="200" Height="30"></PasswordBox>
+        </StackPanel>
+        <Button HorizontalAlignment="Center" Margin="0,10,0,0" Padding="5px">Zaloguj</Button>
+    </StackPanel>
+</Window>
